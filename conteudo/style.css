@@ -1,0 +1,99 @@
+
+
+.menu { display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+    display: inline;
+  }
+  
+  li{
+    display: inline;
+    text-decoration: none;
+  }
+  
+  footer{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+
+.capa__filme img{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.8) 100%),
+}
+
+.titulo-filme{
+    font-size: 64px;
+    color: #000000;
+    margin-top: 0 auto;
+    margin-left: 0 auto;
+    margin-bottom: 0 auto;
+    width: 400px;
+    height: 75px;
+    padding-left: 0 auto;
+}
+
+
+.descricao{
+    padding-left: 50px;
+}
+
+.sinopse{
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 50px;
+    color: rgba(0, 0, 0, 0.75);
+    margin-top: 30px;
+}
+
+.diretor_autores{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.diretores{
+    text-align: left;
+}
+
+.autores{
+    text-align: left;
+    
+}
+
+.media{
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.titulo_trailer{
+    font-size: 36px;
+    margin-top: 64px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.video{
+   
+    text-align: center;
+    min-width: 30%;
+    margin-top: 20px;
+    border-radius: 12px;
+}

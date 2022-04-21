@@ -1,0 +1,173 @@
+
+
+.menu { display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+}
+
+li{
+  display: inline;
+  text-decoration: none;
+}
+
+footer{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+
+
+.banner{
+  background-image: url('./img/background-filmes.jpg');
+  height: 100vh;
+  width: 100%;    
+  top: 47px;
+  align-items: center;
+
+}
+
+.text_banner h1{
+  
+  font-style: normal;
+  background-color: black;
+  color: #E51B3E;
+  margin-left: 20%;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 84px;
+}
+.text_banner{
+  background-color: black;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100%;    
+  top: 47px;
+  border: solid 1px;
+}
+
+.text_banner p{
+  color: white;
+  margin-left: 20%;
+  margin-bottom: 10px;
+}
+.explorar{
+  text-align: center;
+  margin-top: 30px;
+}
+.explorar button{
+  background-color: black;
+  border: green solid 2px;
+  color: white;
+  height: 71px;
+  max-width: 322px;
+  min-width: 200px;
+  border-radius: 12px;
+  font-size: 24px;
+}
+.explorar a{
+  padding: 20px 80px;
+  color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.flex__itens {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex__itens > div {
+  flex: 1 1 200px;
+  margin: 10px 10px;
+}
+
+.background__filme {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f4f4f4;
+}
+
+img {
+  max-width: 100%;
+  height: 20vh;
+  display: block;
+  border-radius: 10px;
+}
+
+.itens {
+  text-align: center;
+  margin: 30px;
+}
+
+.abrir {
+  background-color: rgb(85, 187, 106);
+  padding: 10px;
+  box-shadow: none;
+  color: white;
+  margin: 10px;
+  border-radius: 7px;
+  border: 0px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.abrir:hover {
+  background-color: red;
+}
+
+.description {
+  margin: 10px;
+  height: 200px;
+}
+
+.nomefilme {
+  margin: 10px;
+}
+
+
+.conteudo {
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgba(255, 255, 255, 0);
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  padding: 10px;
+}
+
+.video{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  width: 1196px;
+  height: 659px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  position: center;
+}
